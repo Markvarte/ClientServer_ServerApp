@@ -1,0 +1,13 @@
+C:\Users\NatalijaMarkvarte\source\repos\ClientServer_app\ClientServer_app\bin\Debug\netcoreapp3.1\ClientServer_ServerApp.exe
+C:\Users\NatalijaMarkvarte\source\repos\ClientServer_app\ClientServer_app\bin\Debug\netcoreapp3.1\ClientServer_ServerApp.deps.json
+C:\Users\NatalijaMarkvarte\source\repos\ClientServer_app\ClientServer_app\bin\Debug\netcoreapp3.1\ClientServer_ServerApp.runtimeconfig.json
+C:\Users\NatalijaMarkvarte\source\repos\ClientServer_app\ClientServer_app\bin\Debug\netcoreapp3.1\ClientServer_ServerApp.runtimeconfig.dev.json
+C:\Users\NatalijaMarkvarte\source\repos\ClientServer_app\ClientServer_app\bin\Debug\netcoreapp3.1\ClientServer_ServerApp.dll
+C:\Users\NatalijaMarkvarte\source\repos\ClientServer_app\ClientServer_app\bin\Debug\netcoreapp3.1\ClientServer_ServerApp.pdb
+C:\Users\NatalijaMarkvarte\source\repos\ClientServer_app\ClientServer_app\obj\Debug\netcoreapp3.1\ClientServer_ServerApp.csprojAssemblyReference.cache
+C:\Users\NatalijaMarkvarte\source\repos\ClientServer_app\ClientServer_app\obj\Debug\netcoreapp3.1\ClientServer_ServerApp.AssemblyInfoInputs.cache
+C:\Users\NatalijaMarkvarte\source\repos\ClientServer_app\ClientServer_app\obj\Debug\netcoreapp3.1\ClientServer_ServerApp.AssemblyInfo.cs
+C:\Users\NatalijaMarkvarte\source\repos\ClientServer_app\ClientServer_app\obj\Debug\netcoreapp3.1\ClientServer_ServerApp.csproj.CoreCompileInputs.cache
+C:\Users\NatalijaMarkvarte\source\repos\ClientServer_app\ClientServer_app\obj\Debug\netcoreapp3.1\ClientServer_ServerApp.dll
+C:\Users\NatalijaMarkvarte\source\repos\ClientServer_app\ClientServer_app\obj\Debug\netcoreapp3.1\ClientServer_ServerApp.pdb
+C:\Users\NatalijaMarkvarte\source\repos\ClientServer_app\ClientServer_app\obj\Debug\netcoreapp3.1\ClientServer_ServerApp.genruntimeconfig.cache
