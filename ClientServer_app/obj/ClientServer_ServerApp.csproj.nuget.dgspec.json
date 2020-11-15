@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NatalijaMarkvarte\\source\\repos\\ClientServer_app\\ClientServer_app\\ClientServer_ServerApp.csproj": {}
+    "C:\\Users\\Natalija\\Source\\Repos\\ClientServer_ServerApp\\ClientServer_app\\ClientServer_ServerApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NatalijaMarkvarte\\source\\repos\\ClientServer_app\\ClientServer_app\\ClientServer_ServerApp.csproj": {
+    "C:\\Users\\Natalija\\Source\\Repos\\ClientServer_ServerApp\\ClientServer_app\\ClientServer_ServerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NatalijaMarkvarte\\source\\repos\\ClientServer_app\\ClientServer_app\\ClientServer_ServerApp.csproj",
+        "projectUniqueName": "C:\\Users\\Natalija\\Source\\Repos\\ClientServer_ServerApp\\ClientServer_app\\ClientServer_ServerApp.csproj",
         "projectName": "ClientServer_ServerApp",
-        "projectPath": "C:\\Users\\NatalijaMarkvarte\\source\\repos\\ClientServer_app\\ClientServer_app\\ClientServer_ServerApp.csproj",
-        "packagesPath": "C:\\Users\\NatalijaMarkvarte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NatalijaMarkvarte\\source\\repos\\ClientServer_app\\ClientServer_app\\obj\\",
+        "projectPath": "C:\\Users\\Natalija\\Source\\Repos\\ClientServer_ServerApp\\ClientServer_app\\ClientServer_ServerApp.csproj",
+        "packagesPath": "C:\\Users\\Natalija\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Natalija\\Source\\Repos\\ClientServer_ServerApp\\ClientServer_app\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\NatalijaMarkvarte\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Natalija\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,6 +35,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.ServiceModel.Primitives": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

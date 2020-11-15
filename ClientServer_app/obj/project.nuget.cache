@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "IlbEvpTP3RZvWtwKUsGhbJzYExPXTAG3o+rP7XYiNf2L/zIyPcqesR4KrR3UQ/ctSlPrpowsJ6PtxExG11TUXA==",
+  "dgSpecHash": "9uJpHYgKOS2xu7RpRT62FcjjsrAjtuRa4Tn87838eciM1t+N2dBB9W617cxZKu1XUgpyfDHK0gjq5fVndsf75w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\NatalijaMarkvarte\\source\\repos\\ClientServer_app\\ClientServer_app\\ClientServer_ServerApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Natalija\\Source\\Repos\\ClientServer_ServerApp\\ClientServer_app\\ClientServer_ServerApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Natalija\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Natalija\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Natalija\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\Natalija\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Natalija\\.nuget\\packages\\system.private.servicemodel\\4.8.0\\system.private.servicemodel.4.8.0.nupkg.sha512",
+    "C:\\Users\\Natalija\\.nuget\\packages\\system.reflection.dispatchproxy\\4.7.1\\system.reflection.dispatchproxy.4.7.1.nupkg.sha512",
+    "C:\\Users\\Natalija\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\Natalija\\.nuget\\packages\\system.security.cryptography.cng\\4.7.0\\system.security.cryptography.cng.4.7.0.nupkg.sha512",
+    "C:\\Users\\Natalija\\.nuget\\packages\\system.security.cryptography.pkcs\\4.7.0\\system.security.cryptography.pkcs.4.7.0.nupkg.sha512",
+    "C:\\Users\\Natalija\\.nuget\\packages\\system.security.cryptography.xml\\4.7.0\\system.security.cryptography.xml.4.7.0.nupkg.sha512",
+    "C:\\Users\\Natalija\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
+    "C:\\Users\\Natalija\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\Natalija\\.nuget\\packages\\system.servicemodel.primitives\\4.8.0\\system.servicemodel.primitives.4.8.0.nupkg.sha512",
+    "C:\\Users\\Natalija\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -5,4 +5,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.ServiceModel.Primitives" Version="4.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Messaging">
+      <HintPath>..\..\..\..\Documents\dt\System.Messaging\System.Messaging.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
