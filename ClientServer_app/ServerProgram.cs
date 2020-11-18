@@ -10,7 +10,14 @@ namespace ClientServer_ServerApp
     {
         static void Main(string[] args)
         {
-            ServerProgramType c = ServerProgramType.mappedMemory; //  for now
+            int clientChouse;
+            // Create a new instance of the class.
+            MyMSMQ myNewQueue_0 = new MyMSMQ();
+
+            // Receive a message from a queue.
+            clientChouse = Convert.ToInt32(myNewQueue_0.ReceiveMessage());
+
+            ServerProgramType c = (ServerProgramType)(int)clientChouse; 
             switch (c) {
             case ServerProgramType.FIFOtype: // 0
                     //Klients sūta ziņojumus, bet serveris saņem, tiek veidoti jauni pavedieni, kuri atgriež klienta informāciju

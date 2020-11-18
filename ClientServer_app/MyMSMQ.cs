@@ -10,7 +10,7 @@ namespace ClientServer_ServerApp
         // Receives a message containing an Order.
         //**************************************************
 
-        public void ReceiveMessage()
+        public string ReceiveMessage()
         {
             // Connect to the a queue on the local computer.
             MessageQueue myQueue = new MessageQueue(".\\private$\\new");
@@ -30,6 +30,8 @@ namespace ClientServer_ServerApp
 
                 // Display message information.
                 Console.WriteLine("Client message is: " + clientMgs);
+
+                return clientMgs;
             }
 
             catch (MessageQueueException e)
@@ -46,7 +48,7 @@ namespace ClientServer_ServerApp
 
             // Catch other exceptions as necessary.
 
-            return;
+            return "";
         }
     }
 
