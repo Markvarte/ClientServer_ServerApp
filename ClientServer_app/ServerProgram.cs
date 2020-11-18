@@ -58,15 +58,19 @@ namespace ClientServer_ServerApp
 
                     //Tiek izveidots dalītās atmiņas mehānisms un ierakstīta informācija failā
 
+                    // Failu izveide
                     using (var file = MemoryMappedFile.CreateNew("myFile", int.MaxValue))
                     {
+                        // satura veidosana
                         var bytes = new byte[24];
                         for (var i = 0; i < bytes.Length; i++)
+                            // 24 burti alfabetiska seciba sakot no A
                             bytes[i] = (byte)(65 + i);
 
+                        // satura ierakstisana failaa
                         using (var writer = file.CreateViewAccessor(0, bytes.Length))
                         {
-                            writer.WriteArray<byte>(0, bytes, 0, bytes.Length);
+                            writer.WriteArray(0, bytes, 0, bytes.Length);
                         }
                         Console.WriteLine("Palaidiet memory mapped failu lasītāju pirms izejiet no programmas");
 

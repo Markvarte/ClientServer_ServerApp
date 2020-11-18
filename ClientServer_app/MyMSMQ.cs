@@ -29,7 +29,7 @@ namespace ClientServer_ServerApp
                 string clientMgs = (string)myMessage.Body;
 
                 // Display message information.
-                Console.WriteLine("Client message is: " + clientMgs);
+                Console.WriteLine("[Client message]: " + clientMgs);
 
                 return clientMgs;
             }
