@@ -37,9 +37,17 @@ namespace ClientServer_ServerApp
                     MyMSMQ myNewQueue = new MyMSMQ();
 
                     Console.WriteLine("MSMQ Queuen serveris");
+                    string receivedMgs;
+                    while (true)
+                    {
+                        // Receive a message from a queue.
+                        receivedMgs = myNewQueue.ReceiveMessage();
+                        if (receivedMgs == "quit")
+                        {
+                            break;
+                        }
+                    }
 
-                    // Receive a message from a queue.
-                    myNewQueue.ReceiveMessage();
 
             break;
 
