@@ -1,0 +1,4 @@
+.vs/
+ClientServer_app/bin/Debug/netcoreapp3.1/
+ClientServer_app/obj/
+ClientServer_app/ClientServer_ServerApp.csproj/
